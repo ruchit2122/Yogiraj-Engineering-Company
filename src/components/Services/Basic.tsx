@@ -323,40 +323,7 @@ const Basic = () => {
               transition={{ duration: 0.7, delay: 0.3 }}
               className="relative hidden md:block"
             >
-              <div className="relative">
-                <img
-                  src="/public/banner.jpeg"
-                  alt="Yogiraj Engineering - Industrial Services"
-                  className="rounded-2xl w-full h-72 lg:h-80 object-cover shadow-2xl border border-white/10"
-                />
-                {/* Floating stat card */}
-                <motion.div
-                  className="absolute -bottom-5 -left-5 bg-white/10 backdrop-blur-md border border-white/20 rounded-xl px-5 py-3 shadow-xl"
-                  animate={{ y: [0, -6, 0] }}
-                  transition={{
-                    duration: 4,
-                    repeat: Infinity,
-                    ease: "easeInOut",
-                  }}
-                >
-                  <p className="text-red text-2xl font-bold">10+</p>
-                  <p className="text-white text-xs">Years Experience</p>
-                </motion.div>
-                {/* Floating badge */}
-                <motion.div
-                  className="absolute -top-4 -right-4 bg-white/10 backdrop-blur-md border border-white/20 rounded-xl px-4 py-2.5 shadow-xl"
-                  animate={{ y: [0, 8, 0] }}
-                  transition={{
-                    duration: 5,
-                    repeat: Infinity,
-                    ease: "easeInOut",
-                    delay: 1.5,
-                  }}
-                >
-                  <p className="text-red text-lg font-bold">ISO</p>
-                  <p className="text-white text-xs">Certified</p>
-                </motion.div>
-              </div>
+             
             </motion.div>
           </div>
         </div>
