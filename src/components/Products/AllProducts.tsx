@@ -12,42 +12,42 @@ const MAIN_PRODUCTS: MainProduct[] = [
     key: "non-metalic-expansion-joints",
     title: "Non Metalic Expansion Joints",
     description:
-      "Flexible non-metallic expansion joints designed for chemical and thermal applications.",
+      "Our non-metallic expansion joints are engineered using high-grade rubber, PTFE, and fabric materials to absorb thermal expansion, vibration, and misalignment in piping systems. Ideal for chemical plants, power stations, HVAC systems, and water treatment facilities, these flexible connectors ensure leak-proof performance and long service life even in corrosive or high-temperature environments.",
     image: "/YC/Non metalic Expansion joint/1.jpeg",
   },
   {
     key: "bellows-expansion-joints",
     title: "Bellows Expansion Joints",
     description:
-      "High-performance bellows expansion joints for extreme pressure and temperature conditions.",
+      "Precision-manufactured metallic bellows expansion joints designed to compensate for axial, lateral, and angular movements in industrial piping and ducting systems. Built from stainless steel and high-nickel alloys, our bellows joints withstand extreme pressure, temperature, and cyclic fatigue - making them essential for refineries, petrochemical plants, thermal power plants, and process industries worldwide.",
     image: "/YC/Bellows Expansion Joint/1.jpeg",
   },
   {
     key: "sight-glass",
     title: "Sight Glass",
     description:
-      "Durable sight glass components for visual inspection in industrial systems.",
+      "Industrial-grade sight glass assemblies that provide safe and clear visual monitoring of fluid flow, level, and process conditions within pipelines and vessels. Available in tubular, circular, and full-view configurations, our sight glass units are manufactured with borosilicate glass and heavy-duty flanged bodies to meet the demands of pharmaceutical, food processing, oil & gas, and chemical industries.",
     image: "/YC/Sight Glass/1.jpeg",
   },
   {
     key: "telescopic-expansion-joints",
     title: "Telescopic Expansion Joints",
     description:
-      "Advanced telescopic joints for large movement accommodations in piping systems.",
+      "Heavy-duty telescopic expansion joints engineered to accommodate large axial movements caused by thermal expansion and contraction in long-run pipelines. Widely used in water supply networks, cooling systems, and industrial process lines, these joints feature precision-machined sleeves and reliable sealing elements that ensure zero-leakage performance under demanding operating conditions.",
     image: "/YC/Telescopic Expansion Joint/1.jpeg",
   },
   {
     key: "strainer",
     title: "Strainer",
     description:
-      "Industrial-grade strainers for protection and filtration in fluid systems.",
+      "High-quality Y-type, T-type, and basket strainers designed to protect pumps, valves, and downstream equipment by filtering debris, rust, and solid particles from pipeline fluids. Constructed from carbon steel, stainless steel, and cast iron, our strainers are suitable for water, steam, oil, gas, and chemical applications across power generation, marine, and heavy engineering sectors.",
     image: "/YC/Strainer/1.jpeg",
   },
   {
     key: "dismantaling-joint",
     title: "Dismantaling Joint",
     description:
-      "Easy-to-dismantle joints for maintenance and repair in industrial applications.",
+      "Robust dismantling joints that allow easy removal and installation of valves, pumps, and pipeline accessories without disturbing the surrounding pipework. Available in flanged and wide-range configurations, these joints simplify routine maintenance and reduce downtime in municipal water distribution, sewage treatment, fire protection, and industrial fluid-handling systems.",
     image: "/YC/Dismantling Joint/DJ1.jpeg",
   },
 ];

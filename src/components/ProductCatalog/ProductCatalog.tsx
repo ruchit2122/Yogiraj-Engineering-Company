@@ -6,6 +6,7 @@ import { useState } from "react";
 interface Product {
   id: number;
   name: string;
+  description: string;
   category: string;
   image: string;
   price: string;
@@ -19,7 +20,6 @@ interface Category {
 
 const ProductCatalog: React.FC = () => {
   const [expandedCategory, setExpandedCategory] = useState<number | null>(null);
- 
 
   const categories: Category[] = [
     {
@@ -29,6 +29,8 @@ const ProductCatalog: React.FC = () => {
         {
           id: 1,
           name: "Single Expansion Joint",
+          description:
+            "Absorbs axial movement in straight-run piping systems. Suitable for high-temperature and high-pressure applications in refineries, power plants, and chemical processing units.",
           category: "Bellows Expansion Joints",
           image: "/YC/Bellows Expansion Joint/SEJ2.jpg",
           price: "",
@@ -36,6 +38,8 @@ const ProductCatalog: React.FC = () => {
         {
           id: 2,
           name: "Universal Expansion Joint",
+          description:
+            "Designed to handle lateral deflection and angular rotation using two bellows connected by a center pipe spool. Ideal for complex piping layouts in petrochemical and thermal power industries.",
           category: "Bellows Expansion Joints",
           image: "/YC/Bellows Expansion Joint/UEJ1.jpeg",
           price: "",
@@ -43,6 +47,8 @@ const ProductCatalog: React.FC = () => {
         {
           id: 3,
           name: "Tied Expansion Joint",
+          description:
+            "Features tie rods that restrain axial movement while allowing lateral deflection. Ensures controlled pipe movement in steam, exhaust, and process piping systems.",
           category: "Bellows Expansion Joints",
           image: "/YC/Bellows Expansion Joint/TEJ1.jpeg",
           price: "",
@@ -50,6 +56,8 @@ const ProductCatalog: React.FC = () => {
         {
           id: 4,
           name: "Rectangular Expansion Joint",
+          description:
+            "Custom-fabricated for rectangular duct connections in HVAC, flue gas, and industrial ventilation systems. Absorbs thermal growth and vibration in non-circular cross-sections.",
           category: "Bellows Expansion Joints",
           image: "/YC/Bellows Expansion Joint/REJ1.jpeg",
           price: "",
@@ -63,6 +71,8 @@ const ProductCatalog: React.FC = () => {
         {
           id: 5,
           name: "Rubber Expansion Joint - Type A",
+          description:
+            "General-purpose rubber expansion joint for water, wastewater, and HVAC applications. Absorbs vibration, noise, and thermal movement while providing flexible pipe connections.",
           category: "Non Metallic Expansion Joints",
           image: "/YC/Non metalic Expansion joint/1.jpeg",
           price: "",
@@ -70,6 +80,8 @@ const ProductCatalog: React.FC = () => {
         {
           id: 6,
           name: "Rubber Expansion Joint - Type B",
+          description:
+            "Medium-pressure rubber expansion joint built with reinforced fabric layers for chemical processing and industrial cooling systems. Resistant to a wide range of acids and alkalis.",
           category: "Non Metallic Expansion Joints",
           image: "/YC/Non metalic Expansion joint/2.jpeg",
           price: "",
@@ -77,6 +89,8 @@ const ProductCatalog: React.FC = () => {
         {
           id: 7,
           name: "Rubber Expansion Joint - Type C",
+          description:
+            "Heavy-duty rubber expansion joint designed for high-pressure and high-temperature service in power plants, desalination, and marine applications.",
           category: "Non Metallic Expansion Joints",
           image: "/YC/Non metalic Expansion joint/3.jpeg",
           price: "",
@@ -90,6 +104,8 @@ const ProductCatalog: React.FC = () => {
         {
           id: 8,
           name: "Sight Glass - Model 1",
+          description:
+            "Flanged tubular sight glass for inline visual inspection of fluid flow and clarity in chemical, pharmaceutical, and food-grade piping systems.",
           category: "Sight Glass",
           image: "/YC/Sight Glass/1.jpeg",
           price: "",
@@ -97,6 +113,8 @@ const ProductCatalog: React.FC = () => {
         {
           id: 9,
           name: "Sight Glass - Model 2",
+          description:
+            "Full-view sight glass with borosilicate glass disc for clear observation of process conditions in pipelines and tanks across oil & gas and petrochemical industries.",
           category: "Sight Glass",
           image: "/YC/Sight Glass/2.jpeg",
           price: "",
@@ -104,6 +122,8 @@ const ProductCatalog: React.FC = () => {
         {
           id: 10,
           name: "Sight Glass - Model 3",
+          description:
+            "Double-window sight glass assembly designed for high-pressure applications in steam, water, and chemical processing plants. Features reinforced flanged construction.",
           category: "Sight Glass",
           image: "/YC/Sight Glass/3.jpeg",
           price: "",
@@ -111,6 +131,8 @@ const ProductCatalog: React.FC = () => {
         {
           id: 11,
           name: "Sight Glass - Model 4",
+          description:
+            "Compact circular sight glass suitable for vessel-mounted and pipeline applications. Provides safe visual access for level and flow monitoring in industrial environments.",
           category: "Sight Glass",
           image: "/YC/Sight Glass/4.jpeg",
           price: "",
@@ -124,6 +146,8 @@ const ProductCatalog: React.FC = () => {
         {
           id: 12,
           name: "Telescopic Joint - Type A",
+          description:
+            "Standard telescopic expansion joint for moderate axial movement in water supply, irrigation, and cooling water pipelines. Features precision-machined sleeves and durable sealing rings.",
           category: "Telescopic Expansion Joints",
           image: "/YC/Telescopic Expansion Joint/1.jpeg",
           price: "",
@@ -131,6 +155,8 @@ const ProductCatalog: React.FC = () => {
         {
           id: 13,
           name: "Telescopic Joint - Type B",
+          description:
+            "Heavy-duty telescopic joint for large-diameter pipelines in municipal water distribution and industrial process systems. Handles significant thermal expansion with zero leakage.",
           category: "Telescopic Expansion Joints",
           image: "/YC/Telescopic Expansion Joint/2.jpeg",
           price: "",
@@ -138,6 +164,8 @@ const ProductCatalog: React.FC = () => {
         {
           id: 14,
           name: "Telescopic Joint - Type C",
+          description:
+            "Customizable telescopic expansion joint for high-pressure and high-temperature service in power generation, refinery, and district heating systems.",
           category: "Telescopic Expansion Joints",
           image: "/YC/Telescopic Expansion Joint/3.jpeg",
           price: "",
@@ -151,6 +179,8 @@ const ProductCatalog: React.FC = () => {
         {
           id: 15,
           name: "Y-Type Strainer",
+          description:
+            "Compact Y-shaped strainer for filtering solid particles from steam, gas, and liquid pipelines. Easy to clean and maintain - ideal for horizontal and vertical installations.",
           category: "Strainer",
           image: "/YC/Strainer/1.jpeg",
           price: "",
@@ -158,6 +188,8 @@ const ProductCatalog: React.FC = () => {
         {
           id: 16,
           name: "T-Type Strainer",
+          description:
+            "High-capacity T-type strainer for large-flow applications in water treatment, oil & gas, and process industries. Removable screen basket allows quick cleaning without pipeline disruption.",
           category: "Strainer",
           image: "/YC/Strainer/2.jpeg",
           price: "",
@@ -165,6 +197,8 @@ const ProductCatalog: React.FC = () => {
         {
           id: 17,
           name: "Basket Strainer",
+          description:
+            "Industrial basket strainer with large filtration area for high-flow systems. Suitable for water, fuel oil, and chemical applications in refineries, power plants, and marine environments.",
           category: "Strainer",
           image: "/YC/Strainer/3.jpeg",
           price: "",
@@ -172,6 +206,8 @@ const ProductCatalog: React.FC = () => {
         {
           id: 18,
           name: "Duplex Strainer",
+          description:
+            "Dual-basket duplex strainer that allows continuous pipeline operation during filter cleaning. Essential for critical systems in oil & gas, power generation, and marine applications.",
           category: "Strainer",
           image: "/YC/Strainer/4.jpeg",
           price: "",
@@ -185,6 +221,8 @@ const ProductCatalog: React.FC = () => {
         {
           id: 19,
           name: "Dismantling Joint - DJ1",
+          description:
+            "Standard flanged dismantling joint for easy installation and removal of valves and fittings in water and wastewater pipelines. Adjustable length for on-site flexibility.",
           category: "Dismantling Joint",
           image: "/YC/Dismantling Joint/DJ1.jpeg",
           price: "",
@@ -192,6 +230,8 @@ const ProductCatalog: React.FC = () => {
         {
           id: 20,
           name: "Dismantling Joint - DJ2",
+          description:
+            "Wide-range dismantling joint compatible with multiple pipe sizes. Simplifies maintenance in municipal water supply and fire protection systems.",
           category: "Dismantling Joint",
           image: "/YC/Dismantling Joint/DJ2.jpeg",
           price: "",
@@ -199,6 +239,8 @@ const ProductCatalog: React.FC = () => {
         {
           id: 21,
           name: "Dismantling Joint - DJ3",
+          description:
+            "Heavy-duty dismantling joint for large-diameter pipelines in industrial and infrastructure projects. Features robust epoxy-coated body for corrosion resistance.",
           category: "Dismantling Joint",
           image: "/YC/Dismantling Joint/DJ3.jpeg",
           price: "",
@@ -206,6 +248,8 @@ const ProductCatalog: React.FC = () => {
         {
           id: 22,
           name: "Dismantling Joint - DJ4",
+          description:
+            "Compact dismantling joint designed for confined-space installations in pumping stations, sewage systems, and underground utility networks.",
           category: "Dismantling Joint",
           image: "/YC/Dismantling Joint/DJ4.jpeg",
           price: "",
@@ -262,11 +306,7 @@ const ProductCatalog: React.FC = () => {
                   {categories
                     .find((c) => c.id === expandedCategory)
                     ?.products.map((product) => (
-                      <div
-                        key={product.id}
-                      
-                        className="group cursor-pointer"
-                      >
+                      <div key={product.id} className="group cursor-pointer">
                         {/* Compact Product Card */}
                         <div className="overflow-hidden rounded-md border border-slate-200 bg-white transition-all duration-300 hover:border-slate-400 hover:shadow-md">
                           {/* Image Container */}
@@ -283,6 +323,9 @@ const ProductCatalog: React.FC = () => {
                             <h4 className="text-xs font-semibold text-slate-900 line-clamp-2 transition-colors duration-300 group-hover:text-slate-700">
                               {product.name}
                             </h4>
+                            <p className="text-[10px] text-slate-500 mt-1 line-clamp-2">
+                              {product.description}
+                            </p>
                           </div>
                         </div>
                       </div>
