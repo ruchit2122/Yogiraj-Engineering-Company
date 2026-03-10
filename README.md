@@ -244,5 +244,3 @@ Plot No. C/2/6, GIDC, Vithal Udyognagar, Anand District, Gujarat 388121
 🌐 [yogirajengg.com](https://yogirajengg.com)
 
 </div>
-#   Y o g i r a j - E n g i n e e r i n g - C o m p a n y  
- 
