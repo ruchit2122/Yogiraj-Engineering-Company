@@ -14,10 +14,9 @@ interface TeamMember {
 const teamMembers: TeamMember[] = [
   {
     id: 1,
-    name: "Rajesh Kumar",
-    position: "Chief Executive Officer",
-    image:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
+    name: "Dharmesh Patel",
+    position: "Managing Partner",
+    image: "/sanjay.jpeg",
     description:
       "Leading the company with over 15 years of engineering excellence and strategic vision.",
     experience: "15+ Years",
@@ -29,10 +28,9 @@ const teamMembers: TeamMember[] = [
   },
   {
     id: 2,
-    name: "Priya Sharma",
-    position: "Chief Technical Officer",
-    image:
-      "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=400&h=400&fit=crop&crop=face",
+    name: "Viral Patel",
+    position: "Managing Partner",
+    image: "/p1.jpeg",
     description:
       "Expert in innovative engineering solutions with a passion for sustainable technology.",
     experience: "12+ Years",
@@ -41,28 +39,6 @@ const teamMembers: TeamMember[] = [
       "Project Management",
       "Quality Assurance",
     ],
-  },
-  {
-    id: 3,
-    name: "Amit Patel",
-    position: "Senior Project Manager",
-    image:
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
-    description:
-      "Delivering complex engineering projects on time and within budget constraints.",
-    experience: "10+ Years",
-    expertise: ["Project Management", "Risk Assessment", "Client Relations"],
-  },
-  {
-    id: 4,
-    name: "Neha Singh",
-    position: "Lead Design Engineer",
-    image:
-      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face",
-    description:
-      "Creating innovative design solutions that meet the highest industry standards.",
-    experience: "8+ Years",
-    expertise: ["CAD Design", "3D Modeling", "Prototype Development"],
   },
 ];
 
@@ -124,7 +100,7 @@ const Team = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-60px" }}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto"
+          className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto justify-items-center"
         >
           {teamMembers.map((member) => (
             <motion.div
@@ -136,12 +112,12 @@ const Team = () => {
               className="relative w-full bg-white rounded-xl shadow-md hover:shadow-2xl transition-shadow duration-300 overflow-hidden"
             >
               {/* Image Container */}
-              <div className="relative overflow-hidden h-52">
+              <div className="relative overflow-hidden bg-gray-100">
                 <motion.img
                   src={member.image}
                   alt={member.name}
-                  className="w-full h-full object-cover"
-                  whileHover={{ scale: 1.08 }}
+                  className="w-full h-auto object-contain"
+                  whileHover={{ scale: 1.05 }}
                   transition={{ duration: 0.4, ease: "easeOut" }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
