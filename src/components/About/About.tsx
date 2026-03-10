@@ -75,12 +75,14 @@ const AboutSection = () => {
                 </svg>
               </div>
               <p className="text-lg text-zinc-600 leading-relaxed text-justify">
-                Founded in 1985, Yogiraj Engineering Company has grown from a
-                small workshop to one of India's leading manufacturers of
-                industrial components. With over 35 years of experience, we have
-                established ourselves as pioneers in the design and production
-                of customized expansion bellows, strainers, sight flow
-                indicators, valves, and other critical industrial components.
+                With over 5+ years of experience in the metal fabrication
+                industry, Yogiraj Engineering Company has been manufacturing,
+                supplying and exporting a wide gamut of Expansion Bellows and
+                Expansion Joints, Strainers, Sight Glasses, Sight Flow
+                Indicators, Valves, and Cranes. We are one of the leading names
+                in fabricating, exporting &amp; supplying all sorts of Expansion
+                Bellows, Joints and Strainers. Our company is an ISO certified
+                9001:2015.
               </p>
             </motion.div>
 
@@ -105,12 +107,14 @@ const AboutSection = () => {
                 </svg>
               </div>
               <p className="text-lg text-zinc-600 leading-relaxed text-justify">
-                Our journey has been marked by continuous innovation, unwavering
-                commitment to quality, and deep understanding of industrial
-                challenges. From our humble beginnings to our current
-                state-of-the-art manufacturing facility, we have maintained our
-                core values of excellence, integrity, and customer-centricity
-                throughout our evolution.
+                Majority of our Expansion Bellows, Strainer, Sight Flow
+                Indicator, Valve products, Tank and other Fabrications are
+                customised solutions. We design and produce pipe expansion
+                joints or metal expansion joints, Strainer, Sight Flow
+                Indicator, and Valve in close interaction with customer
+                requirements. Furthermore, we are often involved with our
+                customers in design and development of new products for
+                challenging applications.
               </p>
             </motion.div>
           </div>
@@ -161,12 +165,12 @@ const AboutSection = () => {
                 Global Leadership
               </h3>
               <p className="text-lg text-zinc-600 leading-relaxed text-justify">
-                At Yogiraj Engineering Company, our vision is to be the global
-                leader in innovative industrial component solutions that drive
-                efficiency, safety, and sustainability across all sectors. We
-                envision a future where our products are the industry standard
-                for reliability and performance, contributing to the advancement
-                of industrial infrastructure worldwide.
+                Having established and maintained a name that resonates with
+                quality, state of the art technology and customer satisfaction,
+                you can rest assured that all your flexible piping needs will be
+                met with the finest product standards from the house of Yogiraj
+                Engineering Company — the leading manufacturer of metal bellows
+                expansion joints.
               </p>
             </motion.div>
 
@@ -194,12 +198,12 @@ const AboutSection = () => {
                 Technological Innovation
               </h3>
               <p className="text-lg text-zinc-600 leading-relaxed text-justify">
-                We strive to be at the forefront of technological innovation,
-                continuously pushing the boundaries of what's possible in
-                industrial component design and manufacturing. Our sight flow
-                indicators and sight glasses exemplify this vision, providing
-                unparalleled precision and reliability for critical monitoring
-                applications across diverse industrial environments.
+                Behind this success is a team of dedicated engineers and
+                visionaries with expertise in all types of expansion joints and
+                pipe expansion applications, Strainer, Sight Flow Indicator, and
+                Valve. Our team boasts of an extensive background in design,
+                engineering and producing metal bellows, compensators, hoses and
+                fabric and rubber joints.
               </p>
             </motion.div>
           </div>
@@ -250,12 +254,11 @@ const AboutSection = () => {
                 Delivering Exceptional Value
               </h3>
               <p className="text-lg text-zinc-600 leading-relaxed text-justify">
-                Our mission is to deliver exceptional value to our customers
-                through innovative, high-quality industrial components that
-                solve complex challenges and enhance operational efficiency. We
-                are committed to understanding each customer's unique
-                requirements and providing tailored solutions that exceed
-                expectations in performance, durability, and safety.
+                Our commitment to quality of expansion joints, Strainer, Sight
+                Flow Indicator, and Valve starts at the quotation stage itself.
+                The products are produced using software designed by our able
+                engineers using extensive field research and then tested in our
+                in-house testing facilities before delivery.
               </p>
             </motion.div>
 
@@ -283,12 +286,14 @@ const AboutSection = () => {
                 Innovation &amp; Excellence
               </h3>
               <p className="text-lg text-zinc-600 leading-relaxed text-justify">
-                We accomplish this mission through continuous investment in
-                research and development, advanced manufacturing technologies,
-                and our team of highly skilled engineers and technicians. Our
-                comprehensive range of valves, cranes, and strainers exemplifies
-                this commitment, engineered to deliver optimal performance and
-                reliability even in the most demanding industrial environments.
+                The main reason behind our immense success is the fabrication of
+                a qualitative range of products. We are professionals in
+                fabrication, providing finish standard products using
+                cutting-edge technologies and the talent of our efficient
+                workforce. Our dedicated and experienced team has assisted in
+                establishing the foundation and reaching new heights. We are an
+                ISO certified 9001:2015 company delivering cost-effective and
+                dimensionally accurate products.
               </p>
             </motion.div>
           </div>

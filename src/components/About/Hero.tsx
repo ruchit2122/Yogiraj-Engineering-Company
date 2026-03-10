@@ -1,5 +1,6 @@
 import { motion, useReducedMotion, type Transition } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 
 const ShuffleHero = () => {
   return (
@@ -10,7 +11,7 @@ const ShuffleHero = () => {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.7, ease: "easeOut" }}
       >
-        <span className="inline-block mb-1 text-xs md:text-sm text-indigo-600 font-semibold uppercase tracking-widest">
+        <span className="inline-block mb-1 text-xs md:text-sm text-yellow-400 font-semibold uppercase tracking-widest">
           About Yogiraj Engineering
         </span>
 
@@ -22,7 +23,7 @@ const ShuffleHero = () => {
 
         <p className="text-base md:text-lg text-slate-600 leading-relaxed max-w-prose">
           We design, manufacture, and maintain high‑performance engineering
-          solutions — from custom fabrication and machining to onsite
+          solutions - from custom fabrication and machining to onsite
           installation and lifecycle service.
         </p>
         <p className="text-base md:text-lg text-slate-600 leading-relaxed max-w-prose">
@@ -36,18 +37,20 @@ const ShuffleHero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
         >
-          <button
+          <Link
+            to="/products"
             className="inline-flex items-center bg-indigo-600 text-white font-medium py-3 px-7 rounded-lg transition-all hover:bg-indigo-700 hover:shadow-lg hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-indigo-600 shadow-sm"
-            aria-label="Explore engineering services"
+            aria-label="Explore engineering Products and services"
           >
-            Explore Services
-          </button>
-          <button
+            Explore Products
+          </Link>
+          <Link
+            to="/contact"
             className="inline-flex items-center border-2 border-indigo-600 text-indigo-600 font-medium py-3 px-7 rounded-lg transition-all hover:bg-indigo-50 hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-indigo-600"
             aria-label="Contact us"
           >
             Contact Us
-          </button>
+          </Link>
         </motion.div>
       </motion.div>
 
