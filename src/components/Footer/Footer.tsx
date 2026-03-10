@@ -6,7 +6,6 @@ import { Mail, MapPin, Phone, ArrowRight, CheckCircle } from "lucide-react";
 const TechCorpFooter: React.FC = () => {
   const [email, setEmail] = useState("");
   const [isSubscribed, setIsSubscribed] = useState(false);
-  const [isHovering, setIsHovering] = useState("");
 
   const handleSubscribe = (e: React.FormEvent) => {
     e.preventDefault();

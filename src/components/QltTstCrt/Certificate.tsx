@@ -105,7 +105,7 @@ export default function CertificatesPage() {
   // Distinct years (desc)
   const years = useMemo(() => {
     return Array.from(new Set(CERTIFICATES.map((c) => c.year))).sort(
-      (a, b) => b - a
+      (a, b) => b - a,
     );
   }, []);
 
@@ -118,7 +118,7 @@ export default function CertificatesPage() {
         (c) =>
           c.title.toLowerCase().includes(q) ||
           c.issuer.toLowerCase().includes(q) ||
-          c.tags.some((t) => t.toLowerCase().includes(q))
+          c.tags.some((t) => t.toLowerCase().includes(q)),
       );
     }
 
@@ -288,11 +288,7 @@ export default function CertificatesPage() {
                   className="animate-in fade-in-0 slide-in-from-bottom-2"
                   style={{ animationDelay: `${i * 60}ms` }}
                 >
-                  <CertificateCard
-                    cert={c}
-                    onOpen={() => setSelected(c)}
-                    index={i}
-                  />
+                  <CertificateCard cert={c} onOpen={() => setSelected(c)} />
                 </li>
               ))}
             </ul>
@@ -381,11 +377,9 @@ function Button({
 function CertificateCard({
   cert,
   onOpen,
-  index = 0,
 }: {
   cert: Certificate;
   onOpen: () => void;
-  index?: number;
 }) {
   return (
     <article
