@@ -54,7 +54,7 @@ interface MenuItem {
 }
 
 const menuItems: MenuItem[] = [
-  { label: "Home", href: "./" },
+  { label: "Home", href: "/" },
   {
     label: "Products",
     href: "/products",
@@ -67,11 +67,11 @@ const menuItems: MenuItem[] = [
   },
   {
     label: "Services",
-    href: "services",
+    href: "/services",
     useCustomDropdown: true,
     customDropdownType: "services",
   },
-  { label: "About", href: "about" },
+  { label: "About", href: "/about" },
   {
     label: "News-Gallery",
     href: "/news-gallery",
@@ -405,7 +405,7 @@ const OptimizedStickyHeader: React.FC = () => {
       const currentPath = location.pathname;
 
       // Handle home page
-      if (href === "./" || href === "/") {
+      if (href === "/") {
         return currentPath === "/" || currentPath === "";
       }
 
@@ -449,7 +449,7 @@ const OptimizedStickyHeader: React.FC = () => {
           <div className="flex justify-between items-center h-20 max-w-[100vw] w-full px-4 sm:px-6 lg:px-8 mx-auto">
             {/* Logo */}
             <div className="flex-shrink-0 z-10 ml-4">
-              <Link to="./" aria-label="Company logo">
+              <Link to="/" aria-label="Company logo">
                 <img
                   src="/logo.png"
                   alt="Yogiraj Engineering Company"

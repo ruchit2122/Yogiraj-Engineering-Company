@@ -2,6 +2,7 @@
 
 import type React from "react";
 import { useEffect, useMemo, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 
 type Category = "Quality" | "Safety" | "Environment" | "Compliance";
 
@@ -157,9 +158,9 @@ export default function CertificatesPage() {
           <nav aria-label="Breadcrumb" className="text-sm text-slate-600">
             <ol className="flex items-center gap-2">
               <li>
-                <a href="/" className="hover:underline">
+                <Link to="/" className="hover:underline">
                   Home
-                </a>
+                </Link>
               </li>
               <li aria-hidden="true" className="text-slate-400">
                 /

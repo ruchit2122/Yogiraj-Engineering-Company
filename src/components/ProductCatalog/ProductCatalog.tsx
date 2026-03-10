@@ -2,6 +2,7 @@
 
 import type React from "react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 interface Product {
   id: number;
@@ -15,6 +16,7 @@ interface Product {
 interface Category {
   id: number;
   name: string;
+  slug: string;
   products: Product[];
 }
 
@@ -25,6 +27,7 @@ const ProductCatalog: React.FC = () => {
     {
       id: 0,
       name: "Bellows Expansion Joints",
+      slug: "bellows-expansion-joints",
       products: [
         {
           id: 1,
@@ -67,6 +70,7 @@ const ProductCatalog: React.FC = () => {
     {
       id: 1,
       name: "Non Metallic Expansion Joints",
+      slug: "non-metalic-expansion-joints",
       products: [
         {
           id: 5,
@@ -100,6 +104,7 @@ const ProductCatalog: React.FC = () => {
     {
       id: 2,
       name: "Sight Glass",
+      slug: "sight-glass",
       products: [
         {
           id: 8,
@@ -142,6 +147,7 @@ const ProductCatalog: React.FC = () => {
     {
       id: 3,
       name: "Telescopic Expansion Joints",
+      slug: "telescopic-expansion-joints",
       products: [
         {
           id: 12,
@@ -175,6 +181,7 @@ const ProductCatalog: React.FC = () => {
     {
       id: 4,
       name: "Strainer",
+      slug: "strainer",
       products: [
         {
           id: 15,
@@ -217,6 +224,7 @@ const ProductCatalog: React.FC = () => {
     {
       id: 5,
       name: "Dismantling Joint",
+      slug: "dismantaling-joint",
       products: [
         {
           id: 19,
@@ -278,8 +286,9 @@ const ProductCatalog: React.FC = () => {
                 }}
               >
                 {/* Category Button */}
-                <div
-                  className={`group flex w-full items-center justify-between rounded-md px-3 py-2 text-left text-sm font-medium transition-all duration-200 cursor-pointer ${
+                <Link
+                  to={`/products/${category.slug}`}
+                  className={`group flex w-full items-center justify-between rounded-md px-3 py-2 text-left text-sm font-medium transition-all duration-200 ${
                     expandedCategory === category.id
                       ? "bg-slate-200"
                       : "hover:bg-slate-100"
@@ -293,7 +302,7 @@ const ProductCatalog: React.FC = () => {
                   >
                     →
                   </span>
-                </div>
+                </Link>
               </div>
             ))}
           </div>
@@ -306,7 +315,11 @@ const ProductCatalog: React.FC = () => {
                   {categories
                     .find((c) => c.id === expandedCategory)
                     ?.products.map((product) => (
-                      <div key={product.id} className="group cursor-pointer">
+                      <Link
+                        to={`/products/${categories.find((c) => c.id === expandedCategory)?.slug}`}
+                        key={product.id}
+                        className="group"
+                      >
                         {/* Compact Product Card */}
                         <div className="overflow-hidden rounded-md border border-slate-200 bg-white transition-all duration-300 hover:border-slate-400 hover:shadow-md">
                           {/* Image Container */}
@@ -328,7 +341,7 @@ const ProductCatalog: React.FC = () => {
                             </p>
                           </div>
                         </div>
-                      </div>
+                      </Link>
                     ))}
                 </div>
               )}

@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 export default function Intro() {
   const [isVisible, setIsVisible] = useState(false);
@@ -23,7 +24,7 @@ export default function Intro() {
           setIsVisible(true);
         }
       },
-      { threshold: 0.3 }
+      { threshold: 0.3 },
     );
 
     const element = document.getElementById("stats-section");
@@ -211,10 +212,12 @@ export default function Intro() {
 
             {/* Call to Action Buttons */}
             <div className="flex flex-col sm:flex-row gap-3">
-              <a href="/services" className="bg-black text-white px-6 py-3 rounded font-medium hover:bg-zinc-800 transition-colors inline-block">
+              <Link
+                to="/services"
+                className="bg-black text-white px-6 py-3 rounded font-medium hover:bg-zinc-800 transition-colors inline-block"
+              >
                 OUR SERVICES
-              </a>
-              
+              </Link>
             </div>
           </div>
 
