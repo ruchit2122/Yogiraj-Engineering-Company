@@ -325,7 +325,7 @@ const Basic = () => {
             >
               <div className="relative">
                 <img
-                  src="/YC/Company%20Photo/1.jpeg"
+                  src="/public/banner.jpeg"
                   alt="Yogiraj Engineering - Industrial Services"
                   className="rounded-2xl w-full h-72 lg:h-80 object-cover shadow-2xl border border-white/10"
                 />
@@ -339,8 +339,8 @@ const Basic = () => {
                     ease: "easeInOut",
                   }}
                 >
-                  <p className="text-[#FFD66B] text-2xl font-bold">10+</p>
-                  <p className="text-white/70 text-xs">Years Experience</p>
+                  <p className="text-red text-2xl font-bold">10+</p>
+                  <p className="text-white text-xs">Years Experience</p>
                 </motion.div>
                 {/* Floating badge */}
                 <motion.div
@@ -353,8 +353,8 @@ const Basic = () => {
                     delay: 1.5,
                   }}
                 >
-                  <p className="text-blue-400 text-lg font-bold">ISO</p>
-                  <p className="text-white/70 text-xs">Certified</p>
+                  <p className="text-red text-lg font-bold">ISO</p>
+                  <p className="text-white text-xs">Certified</p>
                 </motion.div>
               </div>
             </motion.div>

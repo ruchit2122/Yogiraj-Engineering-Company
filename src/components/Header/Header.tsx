@@ -5,7 +5,6 @@ import { Link, useLocation } from "react-router-dom";
 import { ChevronDown, Menu, X, ArrowRight } from "lucide-react";
 import Button from "./Button";
 import ProductCatalog from "../ProductCatalog/ProductCatalog";
-import ServicesCatalog from "../ServicesCatalog/ServicesCatalog";
 
 // Add animation styles
 const animationStyles = `
@@ -68,8 +67,6 @@ const menuItems: MenuItem[] = [
   {
     label: "Services",
     href: "/services",
-    useCustomDropdown: true,
-    customDropdownType: "services",
   },
   { label: "About", href: "/about" },
   {
@@ -173,32 +170,6 @@ const ProductCatalogDropdown = React.memo(
 );
 
 ProductCatalogDropdown.displayName = "ProductCatalogDropdown";
-
-const ServicesCatalogDropdown = React.memo(
-  ({
-    isActive,
-    onMouseEnter,
-    onMouseLeave,
-  }: {
-    isActive: boolean;
-    onMouseEnter: () => void;
-    onMouseLeave: () => void;
-  }) => (
-    <div
-      className={`absolute top-full left-0 mt-3 w-[700px] bg-white rounded-xl shadow-lg border border-gray-100 ${
-        isActive ? "block" : "hidden"
-      }`}
-      onMouseEnter={onMouseEnter}
-      onMouseLeave={onMouseLeave}
-    >
-      <div className="p-4">
-        <ServicesCatalog />
-      </div>
-    </div>
-  ),
-);
-
-ServicesCatalogDropdown.displayName = "ServicesCatalogDropdown";
 
 const ModernMobileMenu = React.memo(
   ({
@@ -499,17 +470,6 @@ const OptimizedStickyHeader: React.FC = () => {
                     activeDropdown === item.label &&
                     item.customDropdownType === "products" && (
                       <ProductCatalogDropdown
-                        isActive={true}
-                        onMouseEnter={() => handleDropdownEnter(item.label)}
-                        onMouseLeave={handleDropdownLeave}
-                      />
-                    )}
-
-                  {/* Custom ServicesCatalog Dropdown */}
-                  {item.useCustomDropdown &&
-                    activeDropdown === item.label &&
-                    item.customDropdownType === "services" && (
-                      <ServicesCatalogDropdown
                         isActive={true}
                         onMouseEnter={() => handleDropdownEnter(item.label)}
                         onMouseLeave={handleDropdownLeave}
