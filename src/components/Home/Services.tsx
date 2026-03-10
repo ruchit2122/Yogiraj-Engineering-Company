@@ -109,7 +109,7 @@ const Services = () => {
           </h2>
           <p className="text-base text-zinc-900 max-w-xl">
             Explore our comprehensive range of expansion joints, strainers,
-            sight glasses, and more — built for performance and durability.
+            sight glasses, and more - built for performance and durability.
           </p>
         </div>
         <div ref={servicesRef}>
