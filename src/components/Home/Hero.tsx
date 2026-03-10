@@ -1,6 +1,7 @@
 "use client";
 
 import { ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function EngineeringHero() {
   // Video logic removed for YouTube background
@@ -99,14 +100,16 @@ export default function EngineeringHero() {
             </h1>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <button
+              <Link
+                to="/contact"
                 className="bg-blue-600 hover:bg-blue-700 text-white border-0 h-14 px-8 text-lg rounded-lg flex items-center justify-center transition-colors shadow-lg"
                 style={{ minHeight: "3.5rem" }}
               >
                 Start Your Project
                 <ArrowRight className="w-5 h-5 ml-2" />
-              </button>
-              <button
+              </Link>
+              <Link
+                to="/products"
                 className="border-white/30 hover:bg-white/10 bg-white/5 text-white backdrop-blur-sm h-14 px-8 text-lg rounded-lg flex items-center justify-center transition-colors shadow"
                 style={{
                   minHeight: "3.5rem",
@@ -115,7 +118,7 @@ export default function EngineeringHero() {
                 }}
               >
                 Explore Our Work
-              </button>
+              </Link>
             </div>
           </div>
         </div>
