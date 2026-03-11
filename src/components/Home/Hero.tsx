@@ -11,7 +11,7 @@ export default function EngineeringHero() {
       icon: (
         <img
           src="/settings.svg"
-          alt="Mechanical Engineering Icon"
+          alt="Engineering & Manufacturing Icon"
           style={{
             width: 24,
             height: 24,
@@ -19,45 +19,45 @@ export default function EngineeringHero() {
           }}
         />
       ),
-      title: "Mechanical Engineering",
+      title: "Engineering & Manufacturing",
       description:
-        "Precision design and manufacturing of mechanical systems for industrial applications.",
+        "Design and manufacturing of high-quality industrial flow components including Metal Bellows, Fabric & Rubber Expansion Joints, Strainers, and Dismantling Joints.",
     },
     {
       icon: (
         <img
           src="/briefcase.svg"
-          alt="Civil Engineering Icon"
+          alt="Custom Design & Engineering Icon"
           style={{ width: 24, height: 24 }}
         />
       ),
-      title: "Civil Engineering",
+      title: "Custom Design & Engineering Solutions",
       description:
-        "Infrastructure development, structural design, and project management for robust construction.",
+        "Custom design solutions based on pressure, temperature, and movement requirements with materials like SS304, SS316, Carbon Steel, and Alloy Steel.",
     },
     {
       icon: (
         <img
           src="/user-check.svg"
-          alt="Industrial Automation Icon"
+          alt="Repair & Refurbishment Icon"
           style={{ width: 24, height: 24 }}
         />
       ),
-      title: "Industrial Automation",
+      title: "Repair & Refurbishment Services",
       description:
-        "Automation solutions to optimize manufacturing processes and increase productivity.",
+        "Bellows repair, mesh replacement, strainer refurbishment, and reconditioning of dismantling joints — all tested before delivery.",
     },
     {
       icon: (
         <img
           src="/check-square.svg"
-          alt="Quality Assurance Icon"
+          alt="Quality Inspection & Testing Icon"
           style={{ width: 24, height: 24 }}
         />
       ),
-      title: "Quality Assurance",
+      title: "Quality Inspection & Testing",
       description:
-        "Comprehensive testing and certification services to ensure safety and compliance.",
+        "Dimensional inspection, pressure testing, material verification, and visual & welding inspection to meet the highest industry standards.",
     },
   ];
 

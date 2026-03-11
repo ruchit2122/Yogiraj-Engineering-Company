@@ -8,70 +8,85 @@ const Services = () => {
 
   const services = [
     {
-      icon: "🔩",
-      title: "Bellows Expansion Joint",
+      icon: "🏭",
+      title: "Engineering & Manufacturing",
       description:
-        "High-quality metallic bellows expansion joints designed to absorb thermal expansion, vibration, and misalignment in piping systems.",
+        "At YEC – Yogiraj Engineering Company, we specialize in the design and manufacturing of high-quality industrial flow components using advanced machinery and strict quality standards.",
       image: "/YC/Bellows%20Expansion%20Joint/1.jpeg",
-      details: "Axial, lateral & angular movement compensation",
+      details:
+        "Products manufactured to international standards & customized per client requirements",
       learnMore: "EXPLORE",
       backText:
-        "Our bellows expansion joints are precision-engineered from premium stainless steel, ensuring durability and leak-free performance in high-temperature and high-pressure industrial environments.",
+        "Our products are manufactured using advanced machinery and strict quality standards to ensure durability and performance in demanding industrial applications. All products are manufactured according to international standards and customized based on client requirements.",
+      bullets: [
+        "Metal Bellows Expansion Joints",
+        "Fabric & Rubber Expansion Joints",
+        "Industrial Strainers & Dismantling Joints",
+      ],
     },
     {
-      icon: "⚙️",
-      title: "Dismantling Joint",
+      icon: "📐",
+      title: "Custom Design & Engineering Solutions",
       description:
-        "Robust dismantling joints for easy installation, removal, and maintenance of valves, pumps, and other equipment in pipeline systems.",
+        "Every industrial system has unique operational conditions. Our engineering team provides custom design solutions tailored to the client's project specifications.",
       image: "/YC/Dismantling%20Joint/DJ1.jpeg",
-      details: "Flange-to-flange adjustable length for easy maintenance",
+      details: "Maximum efficiency, safety & reliability in plant operations",
       learnMore: "EXPLORE",
       backText:
-        "Engineered for pipeline flexibility, our dismantling joints simplify valve and equipment replacement without disturbing the entire piping layout. Available in all standard sizes and pressure ratings.",
+        "We support customers with design based on pressure, temperature, and movement requirements, selection of suitable materials such as SS304, SS316, Carbon Steel, and Alloy Steel, engineering drawings, technical documentation, and product customization for special applications.",
+      bullets: [
+        "Pressure, temperature & movement-based design",
+        "SS304, SS316, Carbon & Alloy Steel materials",
+        "Engineering drawings & technical documentation",
+      ],
     },
     {
-      icon: "🔗",
-      title: "Non-Metallic Expansion Joint",
+      icon: "🔧",
+      title: "Repair & Refurbishment Services",
       description:
-        "Flexible non-metallic expansion joints ideal for absorbing movement, vibration, and noise in ductwork and piping applications.",
+        "We provide repair and refurbishment services for expansion joints and strainers to extend product life and reduce replacement costs.",
       image: "/YC/Non%20metalic%20Expansion%20joint/1.jpeg",
-      details: "Vibration isolation, noise reduction & movement absorption",
+      details: "All repaired components tested before delivery",
       learnMore: "EXPLORE",
       backText:
-        "Our non-metallic expansion joints are manufactured using high-grade rubber and fabric materials, providing excellent chemical resistance and flexibility for HVAC, power plant, and industrial duct systems.",
+        "Our repair services include expansion joint bellows repair, replacement of damaged mesh or perforated sheets, refurbishment of industrial strainers, and reconditioning of dismantling joints. All repaired components are tested before delivery to ensure proper functionality.",
+      bullets: [
+        "Expansion joint bellows repair",
+        "Mesh & perforated sheet replacement",
+        "Strainer & dismantling joint refurbishment",
+      ],
     },
     {
-      icon: "🔍",
-      title: "Sight Glass",
+      icon: "✅",
+      title: "Quality Inspection & Testing",
       description:
-        "Industrial sight glasses providing clear visual inspection of fluid flow, level, and condition inside pipelines and vessels.",
+        "Quality is a core part of our manufacturing process. Each product undergoes strict inspection and testing before dispatch.",
       image: "/YC/Sight%20Glass/1.jpeg",
-      details: "Full-view, tubular & bull's eye sight glass designs",
+      details: "Products meet the highest industry standards",
       learnMore: "EXPLORE",
       backText:
-        "Built with borosilicate glass and heavy-duty body materials, our sight glasses ensure safe and reliable process monitoring across chemical, pharmaceutical, and oil & gas industries.",
+        "Our quality control process includes dimensional inspection, pressure testing, material verification, and visual and welding inspection. This ensures our products meet the highest industry standards.",
+      bullets: [
+        "Dimensional & pressure testing",
+        "Material verification",
+        "Visual and welding inspection",
+      ],
     },
     {
-      icon: "�️",
-      title: "Strainer",
+      icon: "🌍",
+      title: "Export & Global Supply",
       description:
-        "Heavy-duty pipeline strainers designed to protect pumps, valves, and equipment by filtering out debris and unwanted particles from the flow.",
+        "We actively serve international markets, especially in the UAE and Middle East region. Our export services include complete logistics support.",
       image: "/YC/Strainer/1.jpeg",
-      details: "Y-type, T-type, basket & duplex strainer configurations",
+      details: "Reliable industrial components delivered to clients worldwide",
       learnMore: "EXPLORE",
       backText:
-        "Our strainers are built to handle demanding industrial conditions with precision-perforated or mesh screens, ensuring consistent flow protection and easy cleaning in water, oil, gas, and chemical systems.",
-    },
-    {
-      icon: "�",
-      title: "Telescopic Expansion Joint",
-      description:
-        "Telescopic expansion joints engineered to accommodate large axial movements in long pipeline runs while maintaining a reliable seal.",
-      image: "/YC/Telescopic%20Expansion%20Joint/1.jpeg",
-      details: "Large axial travel, leak-proof packing & guide sleeves",
-      learnMore: "EXPLORE",
-      backText:
-        "Designed for water supply, cooling systems, and industrial pipelines, our telescopic expansion joints offer smooth sliding action with durable packing materials for long service life and minimal maintenance.",
+        "We provide export packing in wooden boxes, documentation support, coordination with freight forwarders, and timely shipment delivery. Our goal is to deliver reliable industrial components to clients worldwide.",
+      bullets: [
+        "Export packing & documentation support",
+        "Freight forwarder coordination",
+        "Timely global shipment delivery",
+      ],
     },
   ];
 
@@ -96,20 +111,20 @@ const Services = () => {
 
   return (
     <section
-      aria-label="Our Products"
+      aria-label="Core Services"
       className="font-sans bg-[#f9f9f5] text-zinc-900 min-h-screen"
     >
       <div className="mx-auto max-w-7xl px-6 py-16 md:py-20">
         <div className="text-left mb-12">
           <span className="text-zinc-900 text-xl font-bold tracking-wide font-serif">
-            Our Products
+            Core Services
           </span>
           <h2 className="text-4xl sm:text-5xl font-serif font-bold text-[#80D8C3] mb-4 drop-shadow-lg shadow-[#80D8C3]/80">
-            Precision-Engineered Industrial Products
+            Engineering Excellence & Industrial Solutions
           </h2>
           <p className="text-base text-zinc-900 max-w-xl">
-            Explore our comprehensive range of expansion joints, strainers,
-            sight glasses, and more - built for performance and durability.
+            From custom design and manufacturing to quality testing and global
+            export — delivering complete industrial solutions.
           </p>
         </div>
         <div ref={servicesRef}>
@@ -130,12 +145,12 @@ const Services = () => {
                       <div className="mt-auto text-xs text-zinc-900 text-left w-full">
                         <p>{service.details}</p>
                         <p className="mt-2  text-zinc-900 font-bold">
-                          Why choose us?
+                          Our expertise includes:
                         </p>
                         <ul className="list-disc list-inside text-zinc-900 text-xs">
-                          <li>Premium quality materials</li>
-                          <li>Custom sizes & specifications</li>
-                          <li>Trusted by industries worldwide</li>
+                          {service.bullets.map((bullet: string, i: number) => (
+                            <li key={i}>{bullet}</li>
+                          ))}
                         </ul>
                       </div>
                     </div>
