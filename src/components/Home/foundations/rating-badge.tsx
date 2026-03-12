@@ -124,7 +124,7 @@ interface RatingBadgeProps extends HTMLAttributes<HTMLDivElement> {
     theme?: "light" | "dark";
 }
 
-export const RatingBadge = ({ title = "Best Design Tool", subtitle = "2,000+ reviews", rating, theme = "dark", className, ...props }: RatingBadgeProps) => {
+export const RatingBadge = ({ title = "Best Design Tool", subtitle = "2,000+ reviews", rating, theme = "light", className, ...props }: RatingBadgeProps) => {
     return (
         <div {...props} className={cx("flex items-center -space-x-0.5", className)}>
             <Wreath className={cx("shrink-0", theme === "light" && "text-fg-white")} />

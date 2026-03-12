@@ -18,8 +18,8 @@ const teamMembers: TeamMember[] = [
     position: "Managing Partner",
     image: "/sanjay.jpeg",
     description:
-      "Leading the company with over 15 years of engineering excellence and strategic vision.",
-    experience: "15+ Years",
+      "Leading the company with over 8 years of engineering excellence and strategic vision.",
+    experience: "8+ Years",
     expertise: [
       "Strategic Planning",
       "Business Development",
@@ -33,7 +33,7 @@ const teamMembers: TeamMember[] = [
     image: "/p1.jpeg",
     description:
       "Expert in innovative engineering solutions with a passion for sustainable technology.",
-    experience: "12+ Years",
+    experience: "8+ Years",
     expertise: [
       "Technical Innovation",
       "Project Management",

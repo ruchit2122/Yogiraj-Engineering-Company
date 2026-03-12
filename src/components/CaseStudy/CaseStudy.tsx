@@ -133,7 +133,7 @@ export default function CaseStudy() {
             </span>
           </div>
           <h1 className="mt-4 text-balance text-3xl font-semibold leading-tight text-slate-900 md:text-5xl">
-            10+ Years of Engineering Excellence
+            8+ Years of Engineering Excellence
           </h1>
           <div className="mx-auto mt-3 h-1 w-24 rounded-full bg-gradient-to-r from-blue-600 to-indigo-500" />
           <p className="mx-auto mt-3 max-w-2xl text-pretty text-base leading-relaxed text-slate-600 md:text-lg">

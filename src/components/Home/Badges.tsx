@@ -5,8 +5,6 @@ const Badges = () => {
   return (
     <div className="badges-flex-wrapper">
       <RatingBadge />
-      <RatingBadge />
-      <RatingBadge />
     </div>
   );
 };

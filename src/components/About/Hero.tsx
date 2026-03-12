@@ -16,20 +16,17 @@ const ShuffleHero = () => {
         </span>
 
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight tracking-tight text-slate-900">
-          Precision Engineering{" "}
-          <span className="text-indigo-600">for Industry</span> &amp;
-          Infrastructure
+          Precision Engineering for {" "}
+          <span className="text-indigo-600">Custome Expansion Joints</span> &amp;
+         Pipeline Products
         </h1>
 
         <p className="text-base md:text-lg text-slate-600 leading-relaxed max-w-prose">
           We design, manufacture, and maintain high‑performance engineering
-          solutions - from custom fabrication and machining to onsite
+          solutions - for Expansion Joints and Pipeline Products, to onsite
           installation and lifecycle service.
         </p>
-        <p className="text-base md:text-lg text-slate-600 leading-relaxed max-w-prose">
-          Partner with a team trusted by leading industries for quality, safety,
-          and speed.
-        </p>
+        
 
         <motion.div
           className="flex flex-wrap items-center gap-4 pt-2"

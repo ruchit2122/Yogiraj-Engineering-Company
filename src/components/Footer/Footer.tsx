@@ -58,9 +58,9 @@ const TechCorpFooter: React.FC = () => {
             <div className="sm:col-span-2 lg:col-span-1 group text-left">
               <div className="transform transition-all duration-500 hover:translate-y-[-2px]">
                 <img
-                  src="/logo.png"
+                  src="/logo1.png"
                   alt="Yogiraj Engineering Company"
-                  className="h-20 sm:h-24 w-auto object-contain mb-4 sm:mb-6"
+                  className="h-24 sm:h-28 w-auto object-contain mb-4 sm:mb-6"
                 />
                 <p className="text-zinc-900 text-sm leading-relaxed mb-6 sm:mb-8 transition-colors duration-300 group-hover:text-zinc-900">
                   Leading manufacturer of industrial expansion joints,

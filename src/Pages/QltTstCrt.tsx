@@ -1,5 +1,5 @@
 // Import components from QltTstCrt directory
-// import Certificate from '../components/QltTstCrt/Certificate'
+import Certificate from '../components/QltTstCrt/Certificate'
 import Hero from '../components/QltTstCrt/Hero'
 import Trust from '../components/QltTstCrt/Trust'
 
@@ -7,7 +7,7 @@ const QltTstCrt = () => {
   return (
     <div>
       <Hero />
-      {/* <Certificate /> */}
+      <Certificate />
       <Trust />
     </div>
   )

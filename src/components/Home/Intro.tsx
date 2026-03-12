@@ -11,10 +11,10 @@ export default function Intro() {
   });
 
   const targetCounts = {
-    happyClients: 50,
-    workCompleted: 99,
+    happyClients: 150,
+    workCompleted: 1000,
     satisfaction: 99,
-    telephonicTalk: 999,
+    telephonicTalk: 9999,
   };
 
   useEffect(() => {

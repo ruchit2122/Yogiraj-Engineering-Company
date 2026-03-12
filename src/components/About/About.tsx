@@ -75,7 +75,7 @@ const AboutSection = () => {
                 </svg>
               </div>
               <p className="text-lg text-zinc-600 leading-relaxed text-justify">
-                With over 10+ years of experience in the metal fabrication
+                With over 8+ years of experience in the metal fabrication
                 industry, Yogiraj Engineering Company has been manufacturing,
                 supplying and exporting a wide gamut of Expansion Bellows and
                 Expansion Joints, Strainers, Sight Glasses, Sight Flow

@@ -5,18 +5,21 @@ import Slider from "../components/Home/Slider";
 import Products from "../components/Home/Products";
 import Reviews from "../components/Home/Reviews";
 import Services from "../components/Home/Services";
-import Badges from "../components/Home/Badges";
+// import Badges from "../components/Home/Badges";
 import Client from "../components/Home/Client";
+import Certificate from "../components/Home/Certificate";
 
 const Home = () => {
   return (
     <div>
       <Hero />
-      <Badges />
+      {/* <Badges /> */}
       <Slider />
       <Intro />
+       <Certificate />
       <Slider />
       <Services />
+     
       <Products />
       {/* <News /> */}
       <Reviews />

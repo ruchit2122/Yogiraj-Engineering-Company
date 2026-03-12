@@ -124,7 +124,7 @@ const Services = () => {
           </h2>
           <p className="text-base text-zinc-900 max-w-xl">
             From custom design and manufacturing to quality testing and global
-            export — delivering complete industrial solutions.
+            export - delivering complete industrial solutions.
           </p>
         </div>
         <div ref={servicesRef}>

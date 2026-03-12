@@ -31,7 +31,7 @@ interface Product {
 const sampleProducts: Product[] = [
   {
     id: 1,
-    name: "Industrial Pump Systems",
+    name: "Expansion Joints",
     category: "Process Equipment",
     description:
       "Engineered pumping systems for process, utility, and transfer applications across refineries, chemical plants, and water treatment facilities.",
@@ -56,7 +56,7 @@ const sampleProducts: Product[] = [
   },
   {
     id: 2,
-    name: "Precision Machined Components",
+    name: "Precision Pipeline Components",
     category: "Engineered Parts",
     description:
       "Custom-engineered parts for OEMs and heavy industry, manufactured to drawing with rigorous quality control and certified inspection.",
@@ -201,8 +201,8 @@ const Products = () => {
           </h2>
           <div className="mx-auto w-16 h-1 bg-blue-600 rounded-full mb-5" />
           <p className="text-slate-500 text-lg max-w-2xl mx-auto leading-relaxed">
-            Turnkey mechanical, electrical, and process solutions engineered for
-            reliability across plants and infrastructure
+            Turnkey mechanical and process solutions engineered for
+            reliability across plants and Pipelines
           </p>
         </motion.div>
       </div>

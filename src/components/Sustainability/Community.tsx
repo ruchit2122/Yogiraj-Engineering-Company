@@ -127,7 +127,7 @@ const Community = () => {
           >
             At Yogiraj Engineering, sustainability is not an afterthought - it
             is woven into how we design, manufacture, and deliver every
-            expansion joint, strainer, and industrial component. Since 1985, we
+            expansion joint, strainer, and industrial component. Since 2018, we
             have been committed to responsible manufacturing that protects our
             environment and strengthens our community.
           </motion.p>
