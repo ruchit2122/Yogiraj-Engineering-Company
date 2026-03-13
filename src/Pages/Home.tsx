@@ -9,17 +9,18 @@ import Services from "../components/Home/Services";
 import Client from "../components/Home/Client";
 import Certificate from "../components/Home/Certificate";
 
+
 const Home = () => {
   return (
     <div>
       <Hero />
       {/* <Badges /> */}
+  
       <Slider />
       <Intro />
-       <Certificate />
+      <Certificate />
       <Slider />
       <Services />
-     
       <Products />
       {/* <News /> */}
       <Reviews />

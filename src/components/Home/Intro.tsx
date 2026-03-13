@@ -223,11 +223,17 @@ export default function Intro() {
 
           {/* Right Section - Minimal Visual Element */}
           <div className="flex justify-center lg:justify-end">
-            <div className="w-full max-w-xl">
+            <div className="w-full max-w-xl flex flex-col gap-12">
               <img
-                src="/banner.jpeg" // Update the path as needed
+                src="/banner.jpeg"
                 alt="Engineering Team"
-                className="rounded-lg  h-auto w-auto"
+                className="rounded-lg h-auto w-full"
+                loading="lazy"
+              />
+              <img
+                src="/Certificate/ISO.png"
+                alt="ISO Certification – Yogiraj Engineering Company"
+                className="h-auto w-full object-contain"
                 loading="lazy"
               />
             </div>
