@@ -45,7 +45,7 @@ export default function EngineeringHero() {
       ),
       title: "Repair & Refurbishment Services",
       description:
-        "Bellows repair, mesh replacement, strainer refurbishment, and reconditioning of dismantling joints — all tested before delivery.",
+        "Bellows repair, mesh replacement, strainer refurbishment, and reconditioning of dismantling joints - all tested before delivery.",
     },
     {
       icon: (
@@ -151,17 +151,18 @@ export default function EngineeringHero() {
                 <p className="text-zinc-600 leading-relaxed mb-4 text-left">
                   {service.description}
                 </p>
-                <div className="flex items-center text-[#4DA8DA] text-sm font-medium group-hover:text-blue-700 transition-colors text-left">
+                <Link
+                  to="/services"
+                  className="inline-flex items-center text-[#4DA8DA] text-sm font-medium group-hover:text-blue-700 transition-colors"
+                >
                   Learn More
                   <ArrowRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
-                </div>
+                </Link>
               </div>
             ))}
           </div>
-          
         </div>
       </div>
-      
     </div>
   );
 }
